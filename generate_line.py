@@ -76,7 +76,7 @@ if __name__ == "__main__":
     val_cnt = number_of_examples - train_cnt
 
     with open("training.json", 'w') as f:
-        json.dump(output_data[train_cnt:], f)
+        json.dump(output_data[:train_cnt], f)
 
     with open("validation.json", 'w') as f:
-        json.dump(output_data[:val_cnt], f)
+        json.dump(output_data[train_cnt:], f)
