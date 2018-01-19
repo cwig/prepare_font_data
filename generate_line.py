@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 import sys
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from PIL import Image, ImageDraw, ImageFont
 import random
 import json
